@@ -1,0 +1,33 @@
+<%- include("partials/header") %>
+    <nav class="navbar navbar-expand-lg navbar-light underline">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Smalls Instrumentals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container containerSize">
+        <div class="card noBoarder">
+            <div class="card-body">
+                <form action="/admin" method="post">
+                    <div class="row margin">
+                        <input class="col form-control" type="text" name="username" placeholder="Username" />
+                    </div>
+                    <div class="row margin">
+                        <input class="col form-control" type="password" name="password" placeholder="Password" />
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <button type="submit" class="btn btn-primary btn-block">Log In</button>
+                    </div>
+                    <div class="row">
+                        <p class="linkStyling">Sign up for an account <a class="textStyle" href="/account">here.</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<%- include("partials/footer") %> 

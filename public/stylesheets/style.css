@@ -1,0 +1,114 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+
+img {
+  padding: 10px;
+}
+
+.underline {
+  border-bottom: 3px solid gray;
+}
+
+.musicPlayerMargin {
+  margin-top: 100px;
+  width: 80%;
+}
+
+.hover {
+  background-color: white;
+  color: black;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.hover:hover {
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.activate {
+  background-color: black;
+  color: white;
+}
+
+#progressBar {
+  margin-top: 17px;
+  border: 2px solid black;
+  border-radius: 2px;
+  height: 10px;
+  width: 100%;
+}
+
+#progress {
+  background-color: black;
+  height: 100%;
+  width: 0%;
+}
+
+#duration {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.containerSize {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 400px;
+}
+
+.containerSize2 {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 450px;
+}
+
+.titleSpacing {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid white;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
+.noBoarder {
+  border: none;
+}
+
+.linkStyling {
+  margin-top: 10px;
+}
+
+.textStyle {
+  text-decoration: none;
+}
+
+.textStyle2 {
+  text-align: center;
+}
+
+.navbarWhite {
+  color: white;
+}
+
+.licensing {
+  color: white;
+  background-color: black;
+}

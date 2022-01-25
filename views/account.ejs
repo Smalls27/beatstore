@@ -1,0 +1,27 @@
+<%- include("partials/header") %>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3><%= errMessage %></h3>
+            </div>
+        </div>
+    </div>
+    <div class="container containerSize2">
+        <form action="/account" method="post">
+            <div class="row margin">
+                <div class="col-6">
+                    <input class="form-control" type="text" name="username" placeholder="Username">
+                </div>
+                <div class="col-6">
+                    <input class="form-control" type="password" name="password" placeholder="Password">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <button class="col-12 btn btn-primary btn-block" type="submit">Create account</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<%- include("partials/footer") %> 
