@@ -21,7 +21,7 @@ accountRouter.route("/")
             if (!admin) {
                 await Admin.create(newAdmin)
                 .then(admin => {
-                    res.redirect('/admin/64127415');
+                    res.redirect('/admin');
                 })
                 .catch(err => console.log(err));
             } else {

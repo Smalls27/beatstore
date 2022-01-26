@@ -5,7 +5,7 @@ const multer =  require("multer");
 
 const isLoggedIn = (req, res, next) => {
     if (req.isAuthenticated()) return next();
-    res.redirect("/admin/64127415");
+    res.redirect("/admin");
 }
 
 const storage = multer.diskStorage({
@@ -65,7 +65,7 @@ uploadRouter.route("/")
 uploadRouter.route("/logout")
     .get((req, res) => {
         req.logOut();
-        res.redirect("/admin/64127415");
+        res.redirect("/admin");
     })
 
 module.exports = uploadRouter;
