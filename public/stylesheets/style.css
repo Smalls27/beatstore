@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: white;
+  color: steelblue;
 }
 
 img {
@@ -94,6 +94,7 @@ img {
 
 .linkStyling {
   margin-top: 10px;
+  color: white;
 }
 
 .textStyle {

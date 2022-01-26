@@ -6,7 +6,7 @@ const img = document.getElementsByTagName("img")[0];
 const beatList = document.getElementsByTagName("li");
 const progressBar = document.getElementById("progressBar");
 const progress = document.getElementById("progress");
-const card = document.querySelector(".card");
+const card = document.querySelectorAll(".card")[2];
 
 const musicPlayer = {
 
@@ -53,7 +53,6 @@ const musicPlayer = {
 
             duration.innerHTML = `${m}:${s}`;
             progress.style.width = Math.floor(musicPlayer.dynamicWidth(event)) + "px";
-            // console.log(progress.style.width);
         }
 
         event.target.nextElementSibling.ontimeupdate = function() {beatTime(event)};
