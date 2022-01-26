@@ -11,7 +11,7 @@ adminRouter.route("/")
     .get(isLoggedOut, (req, res) => {
         res.render("adminlogin");
     })
-    .post(passport.authenticate("local", { successRedirect: "/upload", failureRedirect: "/admin" }) ,(req, res) => {
+    .post(passport.authenticate("local", { successRedirect: "/upload", failureRedirect: "/admin64127415" }) ,(req, res) => {
         
     })
 

@@ -57,7 +57,6 @@ uploadRouter.route("/")
 
         await Beat.create(newBeat)
         .then(beat => {
-            console.log(beat);
             res.redirect("/upload");
         })
         .catch(err => console.log(err));
