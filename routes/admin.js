@@ -7,11 +7,11 @@ const isLoggedOut = (req, res, next) => {
     res.redirect("/upload");
 }
 
-adminRouter.route("/")
+adminRouter.route("/64127415")
     .get(isLoggedOut, (req, res) => {
         res.render("adminlogin");
     })
-    .post(passport.authenticate("local", { successRedirect: "/upload", failureRedirect: "/admin64127415" }) ,(req, res) => {
+    .post(passport.authenticate("local", { successRedirect: "/upload", failureRedirect: "/admin/64127415" }) ,(req, res) => {
         
     })
 

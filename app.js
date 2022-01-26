@@ -45,7 +45,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/admin64127415', adminRouter);
+app.use('/admin', adminRouter);
 app.use('/upload', uploadRouter); 
 app.use('/account', accountRouter);
 app.use('/create-checkout-session', checkoutRouter);
