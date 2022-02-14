@@ -16,14 +16,14 @@ checkoutRouter.route("/:id")
               product_data: {
                 name: beat.beatfile.originalname,
               },
-              unit_amount: 3000,
+              unit_amount: 129,
             },
             quantity: 1,
           },
         ],
         mode: 'payment',
-        success_url: `http://localhost:3000/success/${beat._id}`,
-        cancel_url: 'http://localhost:3000/',
+        success_url: `http://smallsinstrumentalsbeatstore-15783.nodechef.com/success/${beat._id}`,
+        cancel_url: 'http://smallsinstrumentalsbeatstore-15783.nodechef.com/',
       });
 
       res.redirect(session.url);

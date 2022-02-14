@@ -6,7 +6,7 @@ const img = document.getElementsByTagName("img")[0];
 const beatList = document.getElementsByTagName("li");
 const progressBar = document.getElementById("progressBar");
 const progress = document.getElementById("progress");
-const card = document.querySelectorAll(".card")[2];
+const card = document.querySelector(".card");
 
 const musicPlayer = {
 
