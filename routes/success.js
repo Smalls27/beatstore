@@ -7,7 +7,7 @@ successRouter.route("/:id")
         const id = req.params.id;
         await Beats.findById({ _id: id })
         .then(beat => {
-            const filePath = `C:/Users/Kenne/SmallsBeatSite/smallsInstrumentals/public/beats/${beat.beatfile.originalname}`;
+            const filePath = `${beat.beatfile.destination}`;
             res.download(filePath);
         })
         .catch(err => console.log(err));
