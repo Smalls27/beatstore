@@ -22,8 +22,8 @@ checkoutRouter.route("/:id")
           },
         ],
         mode: 'payment',
-        success_url: `http://smallsinstrumentalsbeatstore-15783.nodechef.com/success/${beat._id}`,
-        cancel_url: 'http://smallsinstrumentalsbeatstore-15783.nodechef.com/',
+        success_url: `https://www.smalls843.com/success/${beat._id}`,
+        cancel_url: 'https://www.smalls843.com/',
       });
 
       res.redirect(session.url);
