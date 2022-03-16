@@ -15,6 +15,7 @@ const uploadRouter = require('./routes/upload');
 const accountRouter = require('./routes/account');
 const checkoutRouter = require("./routes/checkout");
 const successRouter = require("./routes/success");
+const songManagementRouter = require("./routes/songManagement");
 
 
 const app = express();
@@ -50,6 +51,7 @@ app.use('/upload', uploadRouter);
 app.use('/account', accountRouter);
 app.use('/create-checkout-session', checkoutRouter);
 app.use('/success', successRouter);
+app.use('/songManagement', songManagementRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
