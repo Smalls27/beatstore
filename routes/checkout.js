@@ -16,7 +16,7 @@ checkoutRouter.route("/:id")
               product_data: {
                 name: beat.beatfile.originalname,
               },
-              unit_amount: 3000,
+              unit_amount: 129,
             },
             quantity: 1,
           },
